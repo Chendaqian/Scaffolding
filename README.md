@@ -1,10 +1,10 @@
 # Scaffolding
 
-> 一个异常类自动生成项目
+一个异常类自动生成工具
 
 ## 目录结构
 
-```java
+```xml
 ├─ README.md
 ├─ Scaffolding.sln
 └─ Src
@@ -30,7 +30,7 @@
 
 使用据有层次的异常定义
 
-```xml
+```csharp
 FrameworkException("An exception from user framework")
     DevelopmentException("开发异常")
     DbUnhandledException("An unhandled exception caught from db")
@@ -47,17 +47,12 @@ FrameworkException("An exception from user framework")
     CacheRequestResolverException
 ```
 
-### 最终生成的Exception Class
+### Exception Class
 
 <details> 
     <summary>CODE</summary>
 
 ```csharp {.line-numbers,highlight=[]}
-
-```
-</details>
-
-```csharp
 
 namespace namespaceABC
 {
@@ -210,5 +205,7 @@ namespace namespaceABC
         }
     }
 }
+
 ```
+</details>
 
