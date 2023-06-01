@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Argu" Version="3.7.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="2.3.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="2.3.2" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Parser.fs" />
+    <Compile Include="CodeGen.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Exceptions.mt" />
+  </ItemGroup>
+
+</Project>
