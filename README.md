@@ -49,6 +49,14 @@ FrameworkException("An exception from user framework")
 
 ### 最终生成的Exception Class
 
+<details> 
+    <summary>CODE</summary>
+
+```csharp {.line-numbers,highlight=[]}
+
+```
+</details>
+
 ```csharp
 
 namespace namespaceABC
