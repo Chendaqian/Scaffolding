@@ -4,6 +4,7 @@
 
 ## 目录结构路
 
+```java
 ├─ README.md
 ├─ Scaffolding.sln
 └─ Src
@@ -13,3 +14,4 @@
               ├─ Exceptions.mt
               ├─ Parser.fs
               └─ Program.fs
+```
