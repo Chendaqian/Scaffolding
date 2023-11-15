@@ -28,7 +28,7 @@
 
 ### 模板文件
 
-使用据有层次的异常定义
+使用具有层次的异常定义
 
 ```csharp
 FrameworkException("An exception from user framework")
