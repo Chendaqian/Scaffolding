@@ -2,6 +2,9 @@
 
 一个异常类自动生成工具
 
+see https://deepwiki.com/Chendaqian/Scaffolding
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Chendaqian/Scaffolding)
+
 ## 目录结构
 
 ```xml
